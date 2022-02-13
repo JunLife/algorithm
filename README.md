@@ -1,8 +1,8 @@
-# Algorithm
+### 알고리즘 공부
 
-
-
-알고리즘 공부
+## 주의할 점
+* input() 대신 sys.stdin.readline() 을 사용해야 함.
+    -> input() 으로는 시간초과가 날 수 있음.
 
 ___
 
