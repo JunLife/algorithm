@@ -2,9 +2,12 @@
 
 ## 주의할 점
 * input() 대신 sys.stdin.readline() 을 사용하자
+
     -> input() 으로는 시간초과가 날 수 있음.
 * for 문으로 sum 등을 구할 때는 comprehension을 사용하자.
+
     -> 시간초과가 날 수 있음
+    
     ex) sum(tree - mid for tree in trees if tree > mid)
 
 ___
